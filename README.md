@@ -22,3 +22,23 @@ Company Website: https://altechomega.com
 | API Swagger    | grape-swagger |
 | Debugging      | byebug        |
 
+## Run
+
+1. Create rails local credentials. If using VS Code as code editor write this command:
+   ```bash
+   EDITOR="code --wait" rails credentials:edit
+   ```
+   Add these line and adjust it with your local database configuration:
+   ```yaml
+   postgresql:
+     database: ur_dbname
+     username: ur_uname
+     password: ur_psswd
+     host: localhost
+     port: 5432
+   ```
+   Then save it.
+   
+2. run `bundle/bundle install`.
+3. run `rails db:create db:migrate`.
+4. run `rails server`.
