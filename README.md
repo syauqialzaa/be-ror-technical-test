@@ -42,14 +42,15 @@ Company Website: https://altechomega.com
    
 2. run `bundle install`.
 3. run `rails db:create db:migrate`.
-4. With TailwindCSS, need to install foreman with gem on your local ruby dependencies. if using rvm: `/usr/share/rvm/gems/ruby-(version)/bin/foreman`
+4. to create seed data, run `rails db:seed` (optional).
+5. With TailwindCSS, need to install foreman with gem on your local ruby dependencies. if using rvm: `/usr/share/rvm/gems/ruby-(version)/bin/foreman`
    ```bash
    gem install foreman
    ```
-5. run `bin/dev` instead of `rails s`, it's because when run with `rails s` its just running rails itself not include TailwindCSS.
+6. run `bin/dev` instead of `rails s`, it's because when run with `rails s` its just running rails itself not include TailwindCSS.
 
 ## Entity Relational Database
 
-Generate ERD file using GraphVIZ and run `bundle exec erd`
+Generate ERD file using GraphVIZ and run `bundle exec erd`.
 
 ![ERD](/img_docs/ERD.png)
