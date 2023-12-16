@@ -47,3 +47,9 @@ Company Website: https://altechomega.com
    gem install foreman
    ```
 5. run `bin/dev` instead of `rails s`, it's because when run with `rails s` its just running rails itself not include TailwindCSS.
+
+## Entity Relational Database
+
+Generate ERD file using GraphVIZ and run `bundle exec erd`
+
+![ERD](/img_docs/ERD.png)
