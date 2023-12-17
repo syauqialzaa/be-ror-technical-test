@@ -14,14 +14,16 @@ Company Website: https://altechomega.com
 
 ## Used Gems
 
-| Dependencies   | Gems          |
-| -------------- | ------------- |
-| Auth & Auto    | devise        |
-| Background Job | sidekiq       |
-| ERD            | rails-erd     |
-| Pagination     | will_paginate |
-| API Swagger    | grape-swagger |
-| Debugging      | byebug        |
+| Dependencies   | Gems              |
+| -------------- | ----------------- |
+| Auth & Auto    | devise            |
+| Background Job | sidekiq           |
+| ERD            | rails-erd         |
+| Testing        | rspec-rails       |
+| Object Dummy   | factory_bot_rails |
+| Pagination     | will_paginate     |
+| API Swagger    | grape-swagger     |
+| Debugging      | byebug            |
 
 ## Usage
 
