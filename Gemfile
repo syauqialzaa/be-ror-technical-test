@@ -15,7 +15,8 @@ gem "redis", "~> 4.0"
 
 gem "devise"
 gem "tailwindcss-rails", "~> 2.0"
-gem "sidekiq"
+gem "sidekiq", "<7"
+gem "redis-namespace"
 
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
