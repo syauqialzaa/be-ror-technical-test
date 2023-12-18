@@ -1,6 +1,6 @@
 FactoryBot.define do
   factory :author do
-    name { "Albert Einstein" }
-    address { "United States" }
+    name { Faker::Book.author }
+    address { Faker::Address.country }
   end
 end

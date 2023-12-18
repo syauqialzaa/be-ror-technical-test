@@ -21,8 +21,7 @@ Company Website: https://altechomega.com
 | ERD            | rails-erd         |
 | Testing        | rspec-rails       |
 | Object Dummy   | factory_bot_rails |
-| Pagination     | will_paginate     |
-| API Swagger    | grape-swagger     |
+| Pagination     | kaminari          |
 | Debugging      | byebug            |
 
 ## Usage

@@ -2,11 +2,15 @@ class BooksController < ApplicationController
   before_action :set_authors, only: [:new, :create]
 
   def index
-    @books = Book.all
+    @books = Book.page(params[:page]).per(10)
   end
 
   def new
-    @book = Book.new
+    if current_user
+      @book = Book.new
+    else
+      redirect_to root_path
+    end
   end
 
   def create

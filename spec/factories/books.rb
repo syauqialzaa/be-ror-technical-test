@@ -1,8 +1,8 @@
 FactoryBot.define do
   factory :book do
-    title { "The Theory Of Relativity" }
-    genre { "Physics" }
-    year { 1905 }
+    title { Faker::Book.title }
+    genre { Faker::Book.genre }
+    year { Faker::Number.between(from: 1890, to: 2023) }
     author
   end
 end
