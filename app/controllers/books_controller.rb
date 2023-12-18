@@ -17,7 +17,6 @@ class BooksController < ApplicationController
     @book = Book.new(book_params)
     if @book.save
       BookCreatedJob.perform_later(current_user, @book)
-
       redirect_to books_path, notice: "Book added successfully."
     else
       render :new

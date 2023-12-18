@@ -13,6 +13,7 @@ gem "stimulus-rails"
 gem "jbuilder"
 gem "redis", "~> 4.0"
 
+gem "rack-cors"
 gem "devise"
 gem "tailwindcss-rails", "~> 2.0"
 gem "sidekiq", "<7"
